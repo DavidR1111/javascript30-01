@@ -1,0 +1,41 @@
+/* CSS */
+
+body {
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Oswald', sans-serif;
+  height: 100%
+
+}
+
+.keys {
+margin: 140px;
+width: 100%;
+}
+
+
+ .key {
+   float:left;
+   border: 2px solid black;
+   padding: 15px;
+   background-color: rgba(0, 0, 0, 0.4);
+   margin: 20px;
+   width: 50px;
+   color: white;
+   font-size: 30px;
+   transition: 0.07s;
+}
+
+
+span {
+  font-size: 20px;
+  width: 50%;
+}
+
+.playing {
+transform: scale(1.1);
+border-color: yellow;
+
+}
